@@ -1,0 +1,7 @@
+# Specify Docker Compose version to use (3 is most current)
+version: "3"
+services:
+  personal-site:
+    build: .
+    ports:
+      - "80:80"

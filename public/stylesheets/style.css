@@ -175,7 +175,7 @@ main {
 
 #details {
   grid-area: details;
-  padding: 13% 10px 0 0;
+  padding: 17vh 10px 0 0;
   background-color: #f7f7f7;
 }
 
@@ -186,13 +186,13 @@ main {
 #project1 {
   grid-area: project1;
   background-color: #c7d7e6;
-  padding-top: 5%;
+  padding-top: 7vh;
   padding-right: 50px;
 }
 
 #content1 {
   grid-area: content1;
-  padding-top: 60%;
+  padding-top: 35vh;
   background-color: #c7d7e6;
 }
 
@@ -200,24 +200,24 @@ main {
   grid-area: project2;
   justify-self: left;
   margin-right: 50px;
-  padding-top: 15%;
+  padding-top: 8vh;
 }
 
 #content2 {
   grid-area: content2;
-  padding-top: 46%;
+  padding-top: 32vh;
 }
 
 #project3 {
   grid-area: project3;
   background-color: #FC766AFF;
-  padding: 17% 50px 0 0;
+  padding: 13vh 50px 0 0;
 }
 
 #content3 {
   grid-area: content3;
   background-color: #FC766AFF;
-  padding-top: 45%;
+  padding-top: 32vh;
 }
 
 footer {
@@ -301,7 +301,7 @@ footer {
   border: none;
 
   display: block;
-  background: url(/assets/down_arrow.svg);
+  background: url(https://asungur-site-assets.nyc3.digitaloceanspaces.com/public/assets/down_arrow.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -312,7 +312,7 @@ footer {
   border: none;
 
   display: block;
-  background: url(/assets/down_arrow.svg);
+  background: url(https://asungur-site-assets.nyc3.digitaloceanspaces.com/public/assets/down_arrow.svg);
   background-repeat: no-repeat;
   background-size: cover;
   transform: rotate(180deg);
