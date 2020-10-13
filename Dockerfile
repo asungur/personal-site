@@ -10,13 +10,13 @@ CMD ["/sbin/my_init"]
 RUN rm -f /etc/service/nginx/down
 RUN rm /etc/nginx/sites-enabled/default
 
-ADD personal-site.conf /etc/nginx/sites-enabled/personal-site.conf
+ADD app.conf /etc/nginx/sites-enabled/app.conf
 
 WORKDIR /home/app/personal-site
 COPY --chown=app:app . .
 
 RUN gem install bundler:2.1.4
 
-RUN bundle install --without development test
+RUN bundle install
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*

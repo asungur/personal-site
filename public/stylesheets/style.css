@@ -177,7 +177,7 @@ main {
 
 #details {
   grid-area: details;
-  padding: 19vh 10px 0 0;
+  padding: 19vh 14px 0 14px;
   background-color: #f7f7f7;
 }
 
